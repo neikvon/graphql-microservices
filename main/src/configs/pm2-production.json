@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "app-prod",
+    "cwd": "./",
+    "script": "index.js",
+    "watch": false,
+    "autorestart": true,
+    "max_memory_restart": "1G",
+    "merge_logs": true,
+    "log": "./logs/pm2.log",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

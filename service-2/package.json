@@ -1,0 +1,24 @@
+{
+  "name": "service-2",
+  "version": "0.0.0",
+  "description": "A project base on 'fbi-project-mod' template",
+  "scripts": {
+    "start": "pm2 start pm2.json"
+  },
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-koa": "^2.1.0",
+    "graphql": "^14.0.2",
+    "koa": "^2.6.1",
+    "winston": "^3.1.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {},
+  "fbi": {
+    "template": {
+      "name": "fbi-project-mod",
+      "version": "graphql"
+    }
+  }
+}

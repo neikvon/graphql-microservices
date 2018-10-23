@@ -1,0 +1,30 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "description": "A project base on 'fbi-project-mod' template",
+  "scripts": {
+    "start": "pm2 start pm2.json"
+  },
+  "dependencies": {
+    "apollo-link-http": "^1.5.5",
+    "apollo-server": "^2.1.0",
+    "apollo-server-koa": "^2.1.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.2",
+    "koa": "^2.6.1",
+    "node-fetch": "^2.2.0",
+    "winston": "^3.1.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {},
+  "fbi": {
+    "template": {
+      "name": "fbi-project-mod",
+      "version": "graphql"
+    }
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.2"
+  }
+}
